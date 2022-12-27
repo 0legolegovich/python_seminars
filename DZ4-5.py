@@ -81,3 +81,8 @@ else:
     expression = expression[:-3] + ' = 0'
 print('Сумма многочленов:')
 print(expression)
+
+# Запись результирующего многочлена в файл
+with open('file_DZ4-5.txt', 'w') as data:
+    data.write(expression)
+data.close()
