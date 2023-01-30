@@ -1,0 +1,16 @@
+from complex import Complex
+x = Complex(2,3)
+y = Complex(4,5)
+
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x.mod())
+print(y.mod())
+print(x.angle())
+print(y.angle())
+print(x.conjugate())
+print(y.conjugate())
+print(x.log())
+print(y.log())
